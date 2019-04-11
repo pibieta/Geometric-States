@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.16)  11 APR 2019 09:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.16)  11 APR 2019 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,7 +1013,11 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 96.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 96.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 96.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 96.
- (./main.aux)
+ (./main.aux
+
+LaTeX Warning: Label `fig:coltrans' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
@@ -1028,8 +1032,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
 LaTeX Font Info:    ... okay on input line 96.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
 LaTeX Font Info:    ... okay on input line 96.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 Normal \count register pool exhausted, switching to extended pool.
 \scratchcounter=\count277
@@ -1164,43 +1167,588 @@ Package natbib Warning: Citation `rahul18' on page 2 undefined on input line 14
 Package natbib Warning: Citation `slagle17' on page 2 undefined on input line 1
 47.
 
-
-LaTeX Warning: Reference `eq:rhoA1' on page 2 undefined on input line 173.
-
 [2]
 
-LaTeX Warning: Reference `eq:rho' on page 3 undefined on input line 179.
+LaTeX Warning: Reference `eq:Av1G' on page 3 undefined on input line 167.
+
+Package epstopdf Info: Source file: <./Figs/Bp2Gket1.eps>
+(epstopdf)                    date: 2019-04-11 11:53:00
+(epstopdf)                    size: 9967 bytes
+(epstopdf)             Output file: <./Figs/Bp2Gket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:44
+(epstopdf)                    size: 5190 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/Bp2Gket1-eps-conver
+ted-to.pdf ./Figs/Bp2Gket1.eps>
+(epstopdf)             \includegraphics on input line 170.
+runsystem(repstopdf --outfile=./Figs/Bp2Gket1-eps-converted-to.pdf ./Figs/Bp2Gk
+et1.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/Bp2Gket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:09
+(epstopdf)                    size: 5190 bytes.
+<./Figs/Bp2Gket1-eps-converted-to.pdf, id=27, 73.27374pt x 61.22874pt>
+File: ./Figs/Bp2Gket1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/Bp2Gket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/Bp2Gket1-eps-converted-to.pdf used on input lin
+e 170.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+Package epstopdf Info: Source file: <./Figs/Bp2Gket1.eps>
+(epstopdf)                    date: 2019-04-11 11:53:00
+(epstopdf)                    size: 9967 bytes
+(epstopdf)             Output file: <./Figs/Bp2Gket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:09
+(epstopdf)                    size: 5190 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/Bp2Gket1-eps-conver
+ted-to.pdf ./Figs/Bp2Gket1.eps>
+(epstopdf)             \includegraphics on input line 170.
+runsystem(repstopdf --outfile=./Figs/Bp2Gket1-eps-converted-to.pdf ./Figs/Bp2Gk
+et1.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/Bp2Gket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:09
+(epstopdf)                    size: 5190 bytes.
+File: ./Figs/Bp2Gket1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/Bp2Gket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/Bp2Gket1-eps-converted-to.pdf used on input lin
+e 170.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+Package epstopdf Info: Source file: <./Figs/Bp2Gket1.eps>
+(epstopdf)                    date: 2019-04-11 11:53:00
+(epstopdf)                    size: 9967 bytes
+(epstopdf)             Output file: <./Figs/Bp2Gket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:09
+(epstopdf)                    size: 5190 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/Bp2Gket1-eps-conver
+ted-to.pdf ./Figs/Bp2Gket1.eps>
+(epstopdf)             \includegraphics on input line 170.
+runsystem(repstopdf --outfile=./Figs/Bp2Gket1-eps-converted-to.pdf ./Figs/Bp2Gk
+et1.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/Bp2Gket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:09
+(epstopdf)                    size: 5190 bytes.
+File: ./Figs/Bp2Gket1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/Bp2Gket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/Bp2Gket1-eps-converted-to.pdf used on input lin
+e 170.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+Package epstopdf Info: Source file: <./Figs/Bp2Gket1.eps>
+(epstopdf)                    date: 2019-04-11 11:53:00
+(epstopdf)                    size: 9967 bytes
+(epstopdf)             Output file: <./Figs/Bp2Gket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:09
+(epstopdf)                    size: 5190 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/Bp2Gket1-eps-conver
+ted-to.pdf ./Figs/Bp2Gket1.eps>
+(epstopdf)             \includegraphics on input line 170.
+runsystem(repstopdf --outfile=./Figs/Bp2Gket1-eps-converted-to.pdf ./Figs/Bp2Gk
+et1.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/Bp2Gket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:10
+(epstopdf)                    size: 5190 bytes.
+File: ./Figs/Bp2Gket1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/Bp2Gket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/Bp2Gket1-eps-converted-to.pdf used on input lin
+e 170.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 
 
-LaTeX Warning: Reference `def:AopBop' on page 3 undefined on input line 199.
-
-[3]
-
-LaTeX Warning: Reference `def:AopBop' on page 4 undefined on input line 211.
+LaTeX Warning: Reference `sec:2gauge' on page 3 undefined on input line 171.
 
 
-LaTeX Warning: Reference `def:intA' on page 4 undefined on input line 227.
+LaTeX Warning: Reference `eq:Av2G' on page 3 undefined on input line 173.
+
+Package epstopdf Info: Source file: <./Figs/color2G.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 37517 bytes
+(epstopdf)             Output file: <./Figs/color2G-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:45
+(epstopdf)                    size: 36180 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/color2G-eps-convert
+ed-to.pdf ./Figs/color2G.eps>
+(epstopdf)             \includegraphics on input line 180.
+runsystem(repstopdf --outfile=./Figs/color2G-eps-converted-to.pdf ./Figs/color2
+G.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/color2G-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:10
+(epstopdf)                    size: 36180 bytes.
+<./Figs/color2G-eps-converted-to.pdf, id=28, 301.125pt x 114.4275pt>
+File: ./Figs/color2G-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/color2G-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/color2G-eps-converted-to.pdf used on input line
+ 180.
+(pdftex.def)             Requested size: 240.90031pt x 91.54211pt.
+ [3 <./Figs/Bp2Gket1-eps-converted-to.pdf> <./Figs/color2G-eps-converted-to.pdf
+>]
+Package epstopdf Info: Source file: <./Figs/shortest.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 4141 bytes
+(epstopdf)             Output file: <./Figs/shortest-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:45
+(epstopdf)                    size: 3172 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/shortest-eps-conver
+ted-to.pdf ./Figs/shortest.eps>
+(epstopdf)             \includegraphics on input line 208.
+runsystem(repstopdf --outfile=./Figs/shortest-eps-converted-to.pdf ./Figs/short
+est.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/shortest-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:11
+(epstopdf)                    size: 3172 bytes.
+
+<./Figs/shortest-eps-converted-to.pdf, id=46, 102.3825pt x 103.38625pt>
+File: ./Figs/shortest-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/shortest-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/shortest-eps-converted-to.pdf used on input lin
+e 208.
+(pdftex.def)             Requested size: 71.66725pt x 72.36987pt.
+Package epstopdf Info: Source file: <./Figs/graphstate.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 17311 bytes
+(epstopdf)             Output file: <./Figs/graphstate-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:45
+(epstopdf)                    size: 11200 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/graphstate-eps-conv
+erted-to.pdf ./Figs/graphstate.eps>
+(epstopdf)             \includegraphics on input line 215.
+runsystem(repstopdf --outfile=./Figs/graphstate-eps-converted-to.pdf ./Figs/gra
+phstate.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/graphstate-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:11
+(epstopdf)                    size: 11200 bytes.
+
+<./Figs/graphstate-eps-converted-to.pdf, id=47, 264.99pt x 97.36375pt>
+File: ./Figs/graphstate-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/graphstate-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/graphstate-eps-converted-to.pdf used on input l
+ine 215.
+(pdftex.def)             Requested size: 211.99228pt x 77.89108pt.
+Package epstopdf Info: Source file: <./Figs/col1.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 4566 bytes
+(epstopdf)             Output file: <./Figs/col1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:46
+(epstopdf)                    size: 3084 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/col1-eps-converted-
+to.pdf ./Figs/col1.eps>
+(epstopdf)             \includegraphics on input line 222.
+runsystem(repstopdf --outfile=./Figs/col1-eps-converted-to.pdf ./Figs/col1.eps)
+...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/col1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:11
+(epstopdf)                    size: 3084 bytes.
+
+<./Figs/col1-eps-converted-to.pdf, id=48, 129.48375pt x 50.1875pt>
+File: ./Figs/col1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/col1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/col1-eps-converted-to.pdf used on input line 22
+2.
+(pdftex.def)             Requested size: 84.16342pt x 32.62148pt.
+Package epstopdf Info: Source file: <./Figs/col2.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 9250 bytes
+(epstopdf)             Output file: <./Figs/col2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:46
+(epstopdf)                    size: 6812 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/col2-eps-converted-
+to.pdf ./Figs/col2.eps>
+(epstopdf)             \includegraphics on input line 223.
+runsystem(repstopdf --outfile=./Figs/col2-eps-converted-to.pdf ./Figs/col2.eps)
+...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/col2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:12
+(epstopdf)                    size: 6812 bytes.
+
+<./Figs/col2-eps-converted-to.pdf, id=49, 147.55125pt x 50.1875pt>
+File: ./Figs/col2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/col2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/col2-eps-converted-to.pdf used on input line 22
+3.
+(pdftex.def)             Requested size: 95.90717pt x 32.62148pt.
+ [4 <./Figs/shortest-eps-converted-to.pdf> <./Figs/graphstate-eps-converted-to.
+pdf> <./Figs/col1-eps-converted-to.pdf> <./Figs/col2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./Figs/Bket1.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 6593 bytes
+(epstopdf)             Output file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:52
+(epstopdf)                    size: 3757 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
+-to.pdf ./Figs/Bket1.eps>
+(epstopdf)             \includegraphics on input line 235.
+runsystem(repstopdf --outfile=./Figs/Bket1-eps-converted-to.pdf ./Figs/Bket1.ep
+s)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:12
+(epstopdf)                    size: 3769 bytes.
+
+<./Figs/Bket1-eps-converted-to.pdf, id=67, 73.27374pt x 61.22874pt>
+File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/Bket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 2
+35.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+Package epstopdf Info: Source file: <./Figs/Bket1.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 6593 bytes
+(epstopdf)             Output file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:12
+(epstopdf)                    size: 3769 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
+-to.pdf ./Figs/Bket1.eps>
+(epstopdf)             \includegraphics on input line 235.
+runsystem(repstopdf --outfile=./Figs/Bket1-eps-converted-to.pdf ./Figs/Bket1.ep
+s)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:13
+(epstopdf)                    size: 3769 bytes.
+File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/Bket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 2
+35.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+Package epstopdf Info: Source file: <./Figs/Bket1.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 6593 bytes
+(epstopdf)             Output file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:13
+(epstopdf)                    size: 3769 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
+-to.pdf ./Figs/Bket1.eps>
+(epstopdf)             \includegraphics on input line 235.
+runsystem(repstopdf --outfile=./Figs/Bket1-eps-converted-to.pdf ./Figs/Bket1.ep
+s)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:13
+(epstopdf)                    size: 3769 bytes.
+File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/Bket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 2
+35.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+Package epstopdf Info: Source file: <./Figs/Bket1.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 6593 bytes
+(epstopdf)             Output file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:13
+(epstopdf)                    size: 3769 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
+-to.pdf ./Figs/Bket1.eps>
+(epstopdf)             \includegraphics on input line 235.
+runsystem(repstopdf --outfile=./Figs/Bket1-eps-converted-to.pdf ./Figs/Bket1.ep
+s)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:14
+(epstopdf)                    size: 3769 bytes.
+File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/Bket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 2
+35.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+Package epstopdf Info: Source file: <./Figs/Bket1.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 6593 bytes
+(epstopdf)             Output file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:14
+(epstopdf)                    size: 3769 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
+-to.pdf ./Figs/Bket1.eps>
+(epstopdf)             \includegraphics on input line 235.
+runsystem(repstopdf --outfile=./Figs/Bket1-eps-converted-to.pdf ./Figs/Bket1.ep
+s)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:14
+(epstopdf)                    size: 3769 bytes.
+File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/Bket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 2
+35.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+Package epstopdf Info: Source file: <./Figs/Bket1.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 6593 bytes
+(epstopdf)             Output file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:14
+(epstopdf)                    size: 3769 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
+-to.pdf ./Figs/Bket1.eps>
+(epstopdf)             \includegraphics on input line 235.
+runsystem(repstopdf --outfile=./Figs/Bket1-eps-converted-to.pdf ./Figs/Bket1.ep
+s)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:14
+(epstopdf)                    size: 3769 bytes.
+File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/Bket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 2
+35.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+Package epstopdf Info: Source file: <./Figs/graph2.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 14333 bytes
+(epstopdf)             Output file: <./Figs/graph2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:49
+(epstopdf)                    size: 9409 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/graph2-eps-converte
+d-to.pdf ./Figs/graph2.eps>
+(epstopdf)             \includegraphics on input line 239.
+runsystem(repstopdf --outfile=./Figs/graph2-eps-converted-to.pdf ./Figs/graph2.
+eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/graph2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:15
+(epstopdf)                    size: 9409 bytes.
+
+<./Figs/graph2-eps-converted-to.pdf, id=68, 168.63pt x 74.2775pt>
+File: ./Figs/graph2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/graph2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/graph2-eps-converted-to.pdf used on input line 
+239.
+(pdftex.def)             Requested size: 134.90417pt x 59.42207pt.
+Package epstopdf Info: Source file: <./Figs/coltrans.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 21074 bytes
+(epstopdf)             Output file: <./Figs/coltrans-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:49
+(epstopdf)                    size: 18178 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/coltrans-eps-conver
+ted-to.pdf ./Figs/coltrans.eps>
+(epstopdf)             \includegraphics on input line 248.
+runsystem(repstopdf --outfile=./Figs/coltrans-eps-converted-to.pdf ./Figs/coltr
+ans.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/coltrans-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:15
+(epstopdf)                    size: 18178 bytes.
+
+<./Figs/coltrans-eps-converted-to.pdf, id=69, 301.125pt x 114.4275pt>
+File: ./Figs/coltrans-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/coltrans-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/coltrans-eps-converted-to.pdf used on input lin
+e 248.
+(pdftex.def)             Requested size: 180.67638pt x 68.65701pt.
 
 
-LaTeX Warning: Reference `eq:rhoA1' on page 4 undefined on input line 231.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./main.bbl)
+
+Package natbib Warning: Citation `pablo' on page 5 undefined on input line 252.
+
+
+Package epstopdf Info: Source file: <./Figs/class1.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 18183 bytes
+(epstopdf)             Output file: <./Figs/class1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:50
+(epstopdf)                    size: 9162 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/class1-eps-converte
+d-to.pdf ./Figs/class1.eps>
+(epstopdf)             \includegraphics on input line 255.
+runsystem(repstopdf --outfile=./Figs/class1-eps-converted-to.pdf ./Figs/class1.
+eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/class1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:16
+(epstopdf)                    size: 9162 bytes.
+<./Figs/class1-eps-converted-to.pdf, id=70, 801.99625pt x 103.38625pt>
+File: ./Figs/class1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/class1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/class1-eps-converted-to.pdf used on input line 
+255.
+(pdftex.def)             Requested size: 441.09929pt x 56.8626pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <./Figs/class2.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 13711 bytes
+(epstopdf)             Output file: <./Figs/class2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:50
+(epstopdf)                    size: 8074 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/class2-eps-converte
+d-to.pdf ./Figs/class2.eps>
+(epstopdf)             \includegraphics on input line 262.
+runsystem(repstopdf --outfile=./Figs/class2-eps-converted-to.pdf ./Figs/class2.
+eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/class2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:16
+(epstopdf)                    size: 8074 bytes.
+<./Figs/class2-eps-converted-to.pdf, id=71, 494.84875pt x 103.38625pt>
+File: ./Figs/class2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/class2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/class2-eps-converted-to.pdf used on input line 
+262.
+(pdftex.def)             Requested size: 272.16765pt x 56.8626pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./Figs/Bket1-eps-converted-to.pdf> <./Figs/graph2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./Figs/ket1.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 3154 bytes
+(epstopdf)             Output file: <./Figs/ket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:51
+(epstopdf)                    size: 2738 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/ket1-eps-converted-
+to.pdf ./Figs/ket1.eps>
+(epstopdf)             \includegraphics on input line 267.
+runsystem(repstopdf --outfile=./Figs/ket1-eps-converted-to.pdf ./Figs/ket1.eps)
+...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/ket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:16
+(epstopdf)                    size: 2738 bytes.
+
+<./Figs/ket1-eps-converted-to.pdf, id=81, 73.27374pt x 61.22874pt>
+File: ./Figs/ket1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/ket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/ket1-eps-converted-to.pdf used on input line 26
+7.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+Package epstopdf Info: Source file: <./Figs/Bket1.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 6593 bytes
+(epstopdf)             Output file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:14
+(epstopdf)                    size: 3769 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
+-to.pdf ./Figs/Bket1.eps>
+(epstopdf)             \includegraphics on input line 269.
+runsystem(repstopdf --outfile=./Figs/Bket1-eps-converted-to.pdf ./Figs/Bket1.ep
+s)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:17
+(epstopdf)                    size: 3769 bytes.
+File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
+ <use ./Figs/Bket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 2
+69.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+Package epstopdf Info: Source file: <./Figs/Bket1.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 6593 bytes
+(epstopdf)             Output file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:17
+(epstopdf)                    size: 3769 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
+-to.pdf ./Figs/Bket1.eps>
+(epstopdf)             \includegraphics on input line 269.
+runsystem(repstopdf --outfile=./Figs/Bket1-eps-converted-to.pdf ./Figs/Bket1.ep
+s)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/Bket1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:17
+(epstopdf)                    size: 3769 bytes.
+File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/Bket1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 2
+69.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+Package epstopdf Info: Source file: <./Figs/ket2.eps>
+(epstopdf)                    date: 2019-04-11 11:52:58
+(epstopdf)                    size: 7267 bytes
+(epstopdf)             Output file: <./Figs/ket2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:32:52
+(epstopdf)                    size: 6661 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/ket2-eps-converted-
+to.pdf ./Figs/ket2.eps>
+(epstopdf)             \includegraphics on input line 277.
+runsystem(repstopdf --outfile=./Figs/ket2-eps-converted-to.pdf ./Figs/ket2.eps)
+...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./Figs/ket2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-11 10:33:18
+(epstopdf)                    size: 6661 bytes.
+
+<./Figs/ket2-eps-converted-to.pdf, id=82, 73.27374pt x 61.22874pt>
+File: ./Figs/ket2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/ket2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/ket2-eps-converted-to.pdf used on input line 27
+7.
+(pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
+ [6 <./Figs/coltrans-eps-converted-to.pdf> <./Figs/class1-eps-converted-to.pdf>
+ <./Figs/class2-eps-converted-to.pdf> <./Figs/ket1-eps-converted-to.pdf> <./Fig
+s/ket2-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `rahul18' on page 7 undefined on input line 28
+5.
+
+
+LaTeX Warning: Reference `eq:rhoA1' on page 7 undefined on input line 302.
+
+
+LaTeX Warning: Reference `eq:rho' on page 7 undefined on input line 308.
+
+[7]
+
+LaTeX Warning: Reference `def:AopBop' on page 8 undefined on input line 328.
+
+
+LaTeX Warning: Reference `def:AopBop' on page 8 undefined on input line 340.
+
+
+LaTeX Warning: Reference `def:intA' on page 8 undefined on input line 356.
+
+
+LaTeX Warning: Reference `eq:rhoA1' on page 8 undefined on input line 360.
+
+(./main.bbl [8])
 
 Package natbib Warning: There were undefined citations.
 
-[4] (./main.aux)
+[9] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 24724 strings out of 493013
- 447745 string characters out of 6135682
- 623263 words of memory out of 5000000
- 27642 multiletter control sequences out of 15000+600000
+ 24818 strings out of 493013
+ 450250 string characters out of 6135682
+ 624565 words of memory out of 5000000
+ 27721 multiletter control sequences out of 15000+600000
  17492 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,67p,3215b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,67p,3215b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
@@ -1223,10 +1771,10 @@ amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on main.pdf (4 pages, 266467 bytes).
+Output written on main.pdf (9 pages, 395196 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 193 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

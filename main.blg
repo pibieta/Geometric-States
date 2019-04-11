@@ -19,6 +19,7 @@ Warning--I didn't find a database entry for "vijay17"
 Warning--I didn't find a database entry for "shirley17"
 Warning--I didn't find a database entry for "rahul18"
 Warning--I didn't find a database entry for "slagle17"
+Warning--I didn't find a database entry for "pablo"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
 Control: key (0) 
@@ -28,45 +29,45 @@ Control: production of article title (-1) disabled
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
-You've used 13 entries,
+You've used 15 entries,
             5847 wiz_defined-function locations,
-            1697 strings with 16736 characters,
-and the built_in function-call counts, 11373 in all, are:
-= -- 754
-> -- 242
-< -- 70
-+ -- 82
-- -- 54
-* -- 1672
-:= -- 1196
-add.period$ -- 13
-call.type$ -- 13
-change.case$ -- 52
-chr.to.int$ -- 13
-cite$ -- 13
-duplicate$ -- 1086
-empty$ -- 884
-format.name$ -- 139
-if$ -- 2218
+            1713 strings with 17063 characters,
+and the built_in function-call counts, 13003 in all, are:
+= -- 866
+> -- 277
+< -- 80
++ -- 94
+- -- 62
+* -- 1904
+:= -- 1371
+add.period$ -- 15
+call.type$ -- 15
+change.case$ -- 60
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 1244
+empty$ -- 1011
+format.name$ -- 159
+if$ -- 2539
 int.to.chr$ -- 1
-int.to.str$ -- 21
-missing$ -- 129
-newline$ -- 91
-num.names$ -- 39
-pop$ -- 486
+int.to.str$ -- 23
+missing$ -- 149
+newline$ -- 97
+num.names$ -- 45
+pop$ -- 561
 preamble$ -- 1
-purify$ -- 65
+purify$ -- 75
 quote$ -- 0
-skip$ -- 429
+skip$ -- 490
 stack$ -- 0
-substring$ -- 284
-swap$ -- 937
-text.length$ -- 27
+substring$ -- 323
+swap$ -- 1072
+text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 167
+type$ -- 193
 warning$ -- 0
-while$ -- 33
+while$ -- 38
 width$ -- 0
-write$ -- 154
-(There were 8 warnings)
+write$ -- 169
+(There were 9 warnings)
