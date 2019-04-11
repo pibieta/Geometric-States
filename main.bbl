@@ -1,0 +1,160 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{13}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {{Padmanabhan}}\ \emph {et~al.}(2014)\citenamefont
+  {{Padmanabhan}}, \citenamefont {{Ibieta Jimenez}}, \citenamefont
+  {{Bernab{\'e} Ferreira}},\ and\ \citenamefont
+  {{Teotonio-Sobrinho}}}]{pramod}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Padmanabhan}}}, \bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {{Ibieta Jimenez}}}, \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {{Bernab{\'e} Ferreira}}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {{Teotonio-Sobrinho}}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {ArXiv e-prints}\ } (\bibinfo {year}
+  {2014})},\ \Eprint {http://arxiv.org/abs/1408.2501} {arXiv:1408.2501
+  [cond-mat.str-el]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {de~Almeida}\ \emph {et~al.}(2017)\citenamefont
+  {de~Almeida}, \citenamefont {Ibieta-Jimenez}, \citenamefont {Espiro},\ and\
+  \citenamefont {Teotonio-Sobrinho}}]{higher}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~C.}\ \bibnamefont
+  {de~Almeida}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Ibieta-Jimenez}}, \bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont
+  {Espiro}}, \ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Teotonio-Sobrinho}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {arXiv preprint arXiv:1711.04186}\ } (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brown}(1964)}]{Brown}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Brown}},\ }\href {\doibase 10.1112/plms/s3-14.3.545} {\bibfield  {journal}
+  {\bibinfo  {journal} {Proc. London Math. Soc. (3)}\ }\textbf {\bibinfo
+  {volume} {14}},\ \bibinfo {pages} {545} (\bibinfo {year} {1964})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Chamon}(2005)}]{chamon05}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Chamon}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical review letters}\ }\textbf {\bibinfo {volume} {94}},\ \bibinfo
+  {pages} {040402} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bravyi}\ \emph {et~al.}(2011)\citenamefont {Bravyi},
+  \citenamefont {Leemhuis},\ and\ \citenamefont {Terhal}}]{bravyi11}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Bravyi}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Leemhuis}}, \
+  and\ \bibinfo {author} {\bibfnamefont {B.~M.}\ \bibnamefont {Terhal}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Annals of
+  Physics}\ }\textbf {\bibinfo {volume} {326}},\ \bibinfo {pages} {839}
+  (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Haah}(2011)}]{haah11}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Haah}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical
+  Review A}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages} {042330}
+  (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yoshida}(2013)}]{yoshida13}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Yoshida}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review B}\ }\textbf {\bibinfo {volume} {88}},\ \bibinfo {pages}
+  {125122} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vijay}\ \emph {et~al.}(2015)\citenamefont {Vijay},
+  \citenamefont {Haah},\ and\ \citenamefont {Fu}}]{vijay15}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Vijay}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Haah}}, \ and\
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Fu}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf
+  {\bibinfo {volume} {92}},\ \bibinfo {pages} {235136} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vijay}\ \emph {et~al.}(2016)\citenamefont {Vijay},
+  \citenamefont {Haah},\ and\ \citenamefont {Fu}}]{vijay16}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Vijay}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Haah}}, \ and\
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Fu}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf
+  {\bibinfo {volume} {94}},\ \bibinfo {pages} {235157} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Hall}}(2000)}]{hall}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~C.}\ \bibnamefont
+  {{Hall}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {ArXiv
+  Mathematical Physics e-prints}\ } (\bibinfo {year} {2000})},\ \Eprint
+  {http://arxiv.org/abs/math-ph/0005032} {math-ph/0005032} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Barut}\ and\ \citenamefont
+  {R{\c{a}}czka}(1986)}]{barut}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Barut}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {R{\c{a}}czka}},\ }\href {http://books.google.com.br/books?id=Mi1fy70II8cC}
+  {\emph {\bibinfo {title} {{Theory of Group Representations and
+  Applications}}}}\ (\bibinfo  {publisher} {World Scientific},\ \bibinfo {year}
+  {1986})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Serre}(1996)}]{serre}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Serre}},\ }\href {https://books.google.com.br/books?id=ILzwngEACAAJ} {\emph
+  {\bibinfo {title} {{Linear Representations of Finite Groups}}}},\ {Graduate
+  texts in mathematics}\ (\bibinfo  {publisher} {Springer-Verlag},\ \bibinfo
+  {year} {1996})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {James}\ and\ \citenamefont {Liebeck}(2001)}]{james}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {James}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Liebeck}},\ }\href {http://books.google.com.br/books?id=PiJMr6kZP44C} {\emph
+  {\bibinfo {title} {{Representations and Characters of Groups}}}},\ {Cambridge
+  mathematical textbooks}\ (\bibinfo  {publisher} {Cambridge University
+  Press},\ \bibinfo {year} {2001})\BibitemShut {NoStop}%
+\end{thebibliography}%
