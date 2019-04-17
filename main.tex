@@ -159,8 +159,8 @@ In this section we define two quantum models whose ground states exhibit depende
 
 \subsection{3D Geometric Quantum Model }\label{sec:3Dmodel}
 
-Roughly speaking, the model consists in a 1-gauge theory of the type considered in \cite{higher,higher-ent} whose Hilbert space gets now decorated by classical 2-gauge configurations, as we will see. So, we consider a 1-gauge theory defined over an arbitrary \(d\)-dimensional lattice that can come from a simplicial complex \(K=\bigcup_{n=0}^d\,K_n\), for instance. More precisely, we will associate \(G_1\)-valued degrees of freedom to the links \(l \in K_1\) of the lattice or, the local Hilbert spaces \(\H_l\) are spanned by basis elements \(\{\ket{g},\, g \in G_1\}\). The global Hilbert space is taken to be the tensor product of these local spaces, i.e., $\mathcal{H} :=\bigotimes_{l \in K_1} \H_l$. Additionally, we will consider to the where $\xi: C_2 \rightarrow  G_2$ is a classical configuration (coloring) of degrees of freedom at plaquettes $p \in K_2$ taking values in the Abelian group $G_2$. Moreover, we consider the group homomorphism, $\partial: G_2 \rightarrow G_1$.
-The Hamiltonian of the model is given by:
+Roughly speaking, the model consists in a 1-gauge theory of the type considered in \cite{higher,higher-ent} whose Hilbert space gets now decorated by classical 2-gauge configurations, as we will see. So, we consider a 1-gauge theory defined over an arbitrary \(d\)-dimensional lattice that can come from a simplicial complex \(K=\bigcup_{n=0}^d\,K_n\), for instance. The symmetry of the models is encoded in a pair of Abelian groups \(G_1\) and \(G_2\). More precisely, we will associate \(G_1\)-valued degrees of freedom to the links \(l \in K_1\) of the lattice or, the local Hilbert spaces \(\H_l\) are spanned by basis elements \(\{\ket{g},\, g \in G_1\}\). The global Hilbert space is taken to be the tensor product of these local spaces, i.e., $\mathcal{H} :=\bigotimes_{l \in K_1} \H_l$. Additionally, we will associate \(G_2\) labels to the faces of the lattice that will serve as a \emph{coloring} for the Hamiltonian operator, to this intent we consider maps $\xi: C_2 \rightarrow  G_2$  that determine a classical configuration (coloring) of \(G_2\)-values at plaquettes $p \in K_2$. Moreover, we consider the group homomorphism, $\partial: G_2 \rightarrow G_1$, that will serve as coupling between the classical fields at plaquettes and the dynamical fields at links.
+The \(G_2\)-labels are not dynamical degrees of freedom and their only task is to serve as a parameter for the Hamiltonian operator. Actually, we have one Hamiltonian for each such \emph{coloring} and given by:
 \begin{equation}\label{eq:Hgeo}
 H(\xi) = - \sum_{p\in K_2} B_p(\xi) - \sum_{v \in K_0} A_v,
 \end{equation}
@@ -298,66 +298,67 @@ We see that even on the simplest example we get rich new behavior both for the g
 
 
 
-\section{Trace of Local Operators}\label{sec:app2}
-In this appendix we show how taking the partial trace of the ground state projector, or any product of projection operators of the theory, implies in Eq.(\ref{eq:rhoA1}). This is, we show that the local projectors \(A_{n,x}\) and \(B_{n,x}\) are traceless unless they are trivial (equal to the identity operator).
-
-We begin by writing the density matrix, \(\rho\), using the local decomposition of \(\mathcal{A}_0\) and \(\mathcal{B}_0\) (see \cite{higher} for a detailed account on this). The local decomposition yields:
-\begin{align*}
-\mathcal{A}_0 = \prod_{n=0}^{d} \prod_{x\in K_n} A_{x}, \; \text{and}\quad \mathcal{B}_0 = \prod_{n=0}^{d} \prod_{x\in K_n} B_{x},
-\end{align*}
-such that the density matrix of Eq.(\ref{eq:rho}) can be written as:
-\begin{align*}
-\rho = \dfrac{1}{GSD} \left(\prod_{n=0}^{d} \prod_{x\in K_n} A_{x}\right)\left(\prod_{n=0}^{d} \prod_{x\in K_n} B_{x}\right),
-\end{align*}
-this form is convenient for taking the partial trace as the operators are now localized at simplices $x \in K_n$ for $0\leq n \leq d$, this allows for the identification of the operators that act exclusively on region $A$ from the operators that act on both $\partial(A)$ and $B$, in order to get the terms that survive the partial trace.
-In this sense, the reduced density matrix is written as:
-\begin{align}\label{eq:rhoAlocal}
-\rho_A = \text{Tr}_B(\rho)= \;\text{Tr}_B\left(\prod_n \prod_{x \in K_n}A_{x}\prod_{y \in K_n}B_{y}\right).
-\end{align}
-Before going onto the calculation of the above partial trace, we will prove a property that will let us evaluate the partial trace rather straightforwardly.
-
-
-\begin{prop}\label{prop:traceless}
-Let \(x,y \in K_n\), be $n$-simplices for \(0\leq n\leq d\). The local operators, \(A_{x}, B_{y}:\mathcal{H}\rightarrow\mathcal{H}\), are traceless unless they act  trivially (as the identity operator \(\mathbb{1}_\mathcal{H}\)).
-\end{prop}
-\begin{proof}
-Let \(\{\ket{f}\}\) be a basis of $\mathcal{H}$, with \(f \in \hom^0\). We start by taking the trace of the local gauge transformations:
-\begin{align*}
-\text{Tr}\left(A_{x}\right) = & \sum_{f} \bra{f} A_{x} \ket{f} = \dfrac{1}{\left|G_{n+1}\right|}\sum_{f}\, \sum_{g \in G_{n+1}} \bra{f} A_{e[x,g]} \ket{f}.
-\end{align*}
-From Definition \ref{def:AopBop}, the action of \(A_{n,x}\) on a basis state consists in general on a shift of basis elements, which yields:
-\begin{align*}
-\text{Tr}\left(A_{x}\right) =&  \dfrac{1}{\left|G_{n+1}\right|}\sum_{f}\, \sum_{g \in G_{n+1}} \bra{f}  \ket{f+ \delta^{-1}(e[x,g])}.
-\end{align*}
-From the last expression it is clear that the only non-null term in the sum occurs only when \(g=e \in G_{n+1}\), the identity element. Thus, we have:
-\begin{align*}
-\text{Tr}\left(A_{n,x}\right) =& \dfrac{\text{Tr}\left(\mathbb{1}\right)}{\left|G_{n+1}\right|} = \dfrac{\dim(\mathcal{H})}{\left|G_{n+1}\right|}.
-\end{align*}
- Similarly, for the trace of local holonomy measurement operators,\(B_{n,y}\), we have:
-\begin{align*}
-\text{Tr}\left(B_{y}\right) = & \sum_{f} \bra{f} B_{x} \ket{f} = \dfrac{1}{\left|G_{n-1}\right|}\sum_{f}\, \sum_{r \in \hat{G}_{n-1}} \bra{f} B_{\hat{e}[y,r]} \ket{f}. 
-\end{align*}
-Using Definition \ref{def:AopBop} the above expression can be written as:
-\begin{align*}
-\text{Tr}\left(B_{y}\right) =\;  \dfrac{1}{\left|G_{n-1}\right|}\sum_{f}\, \sum_{r \in \hat{G}_{n-1}} \chi_r\left({f_n(y)}\right)\braket{f|f}\;
-=\;  \dfrac{1}{\left|G_{n-1}\right|}\sum_{f}\, \sum_{r \in \hat{G}_{n-1}} \chi_r\left({f_n(y)}\right)\chi_{\hat{e}}\left({f_n(y)}\right)\braket{f|f},
-\end{align*}
-where in the last line we used the fact that \(\chi_{\hat{e}}(g)=1, \, \forall g \in G_{n-1}\) and \(\hat{e} \in \hat{G}_{n-1}\), the trivial representation. From the orthogonality relations of characters \cite{hall, barut,serre, james}, we note that:
-\begin{align*}
-\sum_{f}\chi_r\left({f_n(y)}\right)\chi_e\left({f_n(y)}\right) = \delta(e,f_n(y)), 
-\end{align*}
-which implies that the trivial representation term is the only one that has non-zero trace, since it acts as the identity operator.
-\begin{align*}
-\text{Tr}\left(B_{y}\right) = & \dfrac{\left|\mathcal{H}\right|}{\left|G_{n-1}\right|}
-\end{align*}
-\end{proof}
- This result can naturally be extended to products of such operators to show that the only term that survives the trace is the one that acts trivially. This allows us to express  the reduced density matrix, \(\rho_A\) of Eq.(\ref{eq:rhoAlocal}) in terms of operators that act only in region \(A\). 
- 
- In this case,  Proposition \ref{prop:traceless} implies that any operator (or product of several) that is different from \(\mathbb{1}_B\), the identity operator in \(\mathcal{H}_B\), will have vanishing trace. This, in turn, tells us about the nature of the operators that survive the trace; In particular, local gauge transformations \(A_{x}\) will survive the trace if and only if \(x \in K_{n,\tilde{A}}\), where \(\tilde{A}\) is the interior of \(A\) \footnote{Local gauge transformations are labeled by simplices \(x \in K_n\) and they act on the gauge fields at the co-boundary, \(\partial^{\ast}(x)\). In particular, gauge transformations located at \(x \in K_{n,{\partial(A)}}\), the boundary of \(A\), also act on \(B\). Thus, they do not contribute to the trace.} as in Def. \ref{def:intA}. On the other hand, local holonomy measurement operators \(B_{y}\) will survive the trace if and only if \(y \in K_{n,A}\) which corresponds to the entire region $A$. Consequently, the reduced density matrix is:
-\begin{align*}
-\rho_A =\text{Tr}_B(\mathbb{1}_B) \prod_{n} \prod_{x \in K_{n,\tilde{A}}}A_{x}\prod_{y \in K_{n,A}}B_{y} .
-\end{align*}  
-From which we write Eq. (\ref{eq:rhoA1}).
+%\section{Trace of Local Operators}\label{sec:app2}
+%In this appendix we show how taking the partial trace of the ground state projector, or any product of projection operators of the theory, implies in Eq.(\ref{eq:rhoA1}). This is, we show that the local projectors \(A_{n,x}\) and \(B_{n,x}\) are traceless unless they are trivial (equal to the identity operator).
+%
+%We begin by writing the density matrix, \(\rho\), using the local decomposition of \(\mathcal{A}_0\) and \(\mathcal{B}_0\) (see \cite{higher} for a detailed account on this). The local decomposition yields:
+%\begin{align*}
+%\mathcal{A}_0 = \prod_{n=0}^{d} \prod_{x\in K_n} A_{x}, \; \text{and}\quad \mathcal{B}_0 = \prod_{n=0}^{d} \prod_{x\in K_n} B_{x},
+%\end{align*}
+%such that the density matrix of Eq.(\ref{eq:rho}) can be written as:
+%\begin{align*}
+%\rho = \dfrac{1}{GSD} \left(\prod_{n=0}^{d} \prod_{x\in K_n} A_{x}\right)\left(\prod_{n=0}^{d} \prod_{x\in K_n} B_{x}\right),
+%\end{align*}
+%this form is convenient for taking the partial trace as the operators are now localized at simplices $x \in K_n$ for $0\leq n \leq d$, this allows for the identification of the operators that act exclusively on region $A$ from the operators that act on both $\partial(A)$ and $B$, in order to get the terms that survive the partial trace.
+%In this sense, the reduced density matrix is written as:
+%\begin{align}\label{eq:rhoAlocal}
+%\rho_A = \text{Tr}_B(\rho)= \;\text{Tr}_B\left(\prod_n \prod_{x \in K_n}A_{x}\prod_{y \in K_n}B_{y}\right).
+%\end{align}
+%Before going onto the calculation of the above partial trace, we will prove a property that will let us evaluate the partial trace rather straightforwardly.
+%
+%
+%\begin{prop}\label{prop:traceless}
+%Let \(x,y \in K_n\), be $n$-simplices for \(0\leq n\leq d\). The local operators, \(A_{x}, B_{y}:\mathcal{H}\rightarrow\mathcal{H}\), are traceless unless they act  trivially (as the identity operator \(\mathbb{1}_\mathcal{H}\)).
+%\end{prop}
+%\begin{proof}
+%Let \(\{\ket{f}\}\) be a basis of $\mathcal{H}$, with \(f \in \hom^0\). We start by taking the trace of the local gauge transformations:
+%\begin{align*}
+%\text{Tr}\left(A_{x}\right) = & \sum_{f} \bra{f} A_{x} \ket{f} = \dfrac{1}{\left|G_{n+1}\right|}\sum_{f}\, \sum_{g \in G_{n+1}} \bra{f} A_{e[x,g]} \ket{f}.
+%\end{align*}
+%From Definition \ref{def:AopBop}, the action of \(A_{n,x}\) on a basis state consists in general on a shift of basis elements, which yields:
+%\begin{align*}
+%\text{Tr}\left(A_{x}\right) =&  \dfrac{1}{\left|G_{n+1}\right|}\sum_{f}\, \sum_{g \in G_{n+1}} \bra{f}  \ket{f+ \delta^{-1}(e[x,g])}.
+%\end{align*}
+%From the last expression it is clear that the only non-null term in the sum occurs only when \(g=e \in G_{n+1}\), the identity element. Thus, we have:
+%\begin{align*}
+%\text{Tr}\left(A_{n,x}\right) =& \dfrac{\text{Tr}\left(\mathbb{1}\right)}{\left|G_{n+1}\right|} = \dfrac{\dim(\mathcal{H})}{\left|G_{n+1}\right|}.
+%\end{align*}
+% Similarly, for the trace of local holonomy measurement operators,\(B_{n,y}\), we have:
+%\begin{align*}
+%\text{Tr}\left(B_{y}\right) = & \sum_{f} \bra{f} B_{x} \ket{f} = \dfrac{1}{\left|G_{n-1}\right|}\sum_{f}\, \sum_{r \in \hat{G}_{n-1}} \bra{f} B_{\hat{e}[y,r]} \ket{f}. 
+%\end{align*}
+%Using Definition \ref{def:AopBop} the above expression can be written as:
+%\begin{align*}
+%\text{Tr}\left(B_{y}\right) =\;  \dfrac{1}{\left|G_{n-1}\right|}\sum_{f}\, \sum_{r \in \hat{G}_{n-1}} \chi_r\left({f_n(y)}\right)\braket{f|f}\;
+%=\;  \dfrac{1}{\left|G_{n-1}\right|}\sum_{f}\, \sum_{r \in \hat{G}_{n-1}} \chi_r\left({f_n(y)}\right)\chi_{\hat{e}}\left({f_n(y)}\right)\braket{f|f},
+%\end{align*}
+%where in the last line we used the fact that \(\chi_{\hat{e}}(g)=1, \, \forall g \in G_{n-1}\) and \(\hat{e} \in \hat{G}_{n-1}\), the trivial representation. From the orthogonality relations of characters \cite{hall, barut,serre, james}, we note that:
+%\begin{align*}
+%\sum_{f}\chi_r\left({f_n(y)}\right)\chi_e\left({f_n(y)}\right) = \delta(e,f_n(y)), 
+%\end{align*}
+%which implies that the trivial representation term is the only one that has non-zero trace, since it acts as the identity operator.
+%\begin{align*}
+%\text{Tr}\left(B_{y}\right) = & \dfrac{\left|\mathcal{H}\right|}{\left|G_{n-1}\right|}
+%\end{align*}
+%\end{proof}
+% This result can naturally be extended to products of such operators to show that the only term that survives the trace is the one that acts trivially. This allows us to express  the reduced density matrix, \(\rho_A\) of Eq.(\ref{eq:rhoAlocal}) in terms of operators that act only in region \(A\). 
+% 
+% In this case,  Proposition \ref{prop:traceless} implies that any operator (or product of several) that is different from \(\mathbb{1}_B\), the identity operator in \(\mathcal{H}_B\), will have vanishing trace. This, in turn, tells us about the nature of the operators that survive the trace; In particular, local gauge transformations \(A_{x}\) will survive the trace if and only if \(x \in K_{n,\tilde{A}}\), where \(\tilde{A}\) is the interior of \(A\) \footnote{Local gauge transformations are labeled by simplices \(x \in K_n\) and they act on the gauge fields at the co-boundary, \(\partial^{\ast}(x)\). In particular, gauge transformations located at \(x \in K_{n,{\partial(A)}}\), the boundary of \(A\), also act on \(B\). Thus, they do not contribute to the trace.} as in Def. \ref{def:intA}. On the other hand, local holonomy measurement operators \(B_{y}\) will survive the trace if and only if \(y \in K_{n,A}\) which corresponds to the entire region $A$. Consequently, the reduced density matrix is:
+%\begin{align*}
+%\rho_A =\text{Tr}_B(\mathbb{1}_B) \prod_{n} \prod_{x \in K_{n,\tilde{A}}}A_{x}\prod_{y \in K_{n,A}}B_{y} .
+%\end{align*}  
+%From which we write Eq. (\ref{eq:rhoA1}).
+%
 
 \bibliographystyle{apsrev4-1}
 \bibliography{bib.bib}
