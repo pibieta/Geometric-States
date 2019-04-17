@@ -1,0 +1,90 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{pramod}
+P.~{Padmanabhan}, J.~P. {Ibieta Jimenez}, M.~J. {Bernab{\'e} Ferreira}, and
+  P.~{Teotonio-Sobrinho}, {\it {More Solvable \$2D\$ Quantum Models from
+  Lattice Gauge Theories}},  {\em ArXiv e-prints} (Aug., 2014)
+  [\href{http://xxx.lanl.gov/abs/1408.2501}{{\tt arXiv:1408.2501}}].
+
+\bibitem{kazuophd}
+K.~T. Mendon\c{c}a, {\em {Teorias de 2-gauge e o invariante de Yetter na
+  constru\c{c}{\~a}o de modelos com ordem topol{\'o}gica em 3-dimensões}}.
+\newblock PhD thesis, Universidade de S{\~a}o Paulo, 2017.
+
+\bibitem{ricardomsc}
+R.~C. de~Almeida, {\it {Topological order in Three-dimensional Systems and
+  2-Gauge Symmetry}}, .
+
+\bibitem{higher}
+R.~C. de~Almeida, J.~Ibieta-Jimenez, J.~L. Espiro, and P.~Teotonio-Sobrinho,
+  {\it {Topological Order from a Cohomological and Higher Gauge Theory
+  perspective}},  {\em arXiv preprint arXiv:1711.04186} (2017).
+
+\bibitem{Brown}
+R.~Brown, {\it {Cohomology with chains as coefficients}},  {\em Proc. London
+  Math. Soc. (3)} {\bf 14} (1964) 545--565.
+
+\bibitem{Chamon05}
+C.~Chamon, {\it {Quantum glassiness in strongly correlated clean systems: an
+  example of topological overprotection}},  {\em Physical review letters} {\bf
+  94} (2005), no.~4 040402.
+
+\bibitem{Bravyi11}
+S.~Bravyi, B.~Leemhuis, and B.~M. Terhal, {\it {Topological order in an exactly
+  solvable 3D spin model}},  {\em Annals of Physics} {\bf 326} (2011), no.~4
+  839--866.
+
+\bibitem{Castelnovo12}
+C.~Castelnovo and C.~Chamon, {\it {Topological quantum glassiness}},  {\em
+  Philosophical Magazine} {\bf 92} (2012), no.~1-3 304--323.
+
+\bibitem{Haah11}
+J.~Haah, {\it {Local stabilizer codes in three dimensions without string
+  logical operators}},  {\em Physical Review A} {\bf 83} (2011), no.~4 042330.
+
+\bibitem{bravyi13}
+S.~Bravyi and J.~Haah, {\it {Quantum self-correction in the 3d cubic code
+  model}},  {\em Physical review letters} {\bf 111} (2013), no.~20 200501.
+
+\bibitem{yoshida13}
+B.~Yoshida, {\it {Exotic topological order in fractal spin liquids}},  {\em
+  Physical Review B} {\bf 88} (2013), no.~12 125122.
+
+\bibitem{Vijay15}
+S.~Vijay, J.~Haah, and L.~Fu, {\it {A new kind of topological quantum order: A
+  dimensional hierarchy of quasiparticles built from stationary excitations}},
+  {\em Physical Review B} {\bf 92} (2015), no.~23 235136.
+
+\bibitem{Vijay16}
+S.~Vijay, J.~Haah, and L.~Fu, {\it {Fracton topological order, generalized
+  lattice gauge theory, and duality}},  {\em Physical Review B} {\bf 94}
+  (2016), no.~23 235157.
+
+\bibitem{Vijay17}
+S.~Vijay and L.~Fu, {\it {A generalization of non-abelian anyons in three
+  dimensions}},  {\em arXiv preprint arXiv:1706.07070} (2017).
+
+\bibitem{Shirley18}
+W.~Shirley, K.~Slagle, Z.~Wang, and X.~Chen, {\it {Fracton models on general
+  three-dimensional manifolds}},  {\em Physical Review X} {\bf 8} (2018), no.~3
+  031051.
+
+\bibitem{Nandkishore18}
+R.~M. Nandkishore and M.~Hermele, {\it {Fractons}},  {\em arXiv preprint
+  arXiv:1803.11196} (2018).
+
+\bibitem{Slagle17}
+K.~Slagle and Y.~B. Kim, {\it {Quantum field theory of X-cube fracton
+  topological order and robust degeneracy from geometry}},  {\em Physical
+  Review B} {\bf 96} (2017), no.~19 195139.
+
+\bibitem{higher-ent}
+J.~P. {Ibieta-Jimenez}, M.~Petrucci, and P.~Teotonio-Sobrinho, {\it
+  {Topological entanglement entropy in Abelian higher gauge theories}},  {\em
+  In preparation} (2019).
+
+\bibitem{Kitaev1}
+A.~Y. Kitaev, {\it {Quantum computations: algorithms and error correction}},
+  {\em Russian Mathematical Surveys} {\bf 52} (1997), no.~6 1191.
+
+\end{thebibliography}\endgroup
