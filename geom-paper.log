@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.16)  17 APR 2019 11:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.16)  18 APR 2019 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1184,9 +1184,16 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
-LaTeX Font Info:    Try loading font information for U+bbold on input line 81.
 
-(/usr/share/texlive/texmf-dist/tex/latex/bbold/Ubbold.fd) [1] [2]
+
+Package natbib Warning: Citation `Bullivant16' on page 1 undefined on input lin
+e 81.
+
+
+Package natbib Warning: Citation `Bullivant17' on page 1 undefined on input lin
+e 81.
+
+[1] [2]
 
 LaTeX Warning: Reference `eq:Av1G' on page 3 undefined on input line 105.
 
@@ -1204,7 +1211,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/Bp2Gket1-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/Bp2Gket1-eps-converted-to.pdf, id=111, 73.27374pt x 61.22874pt>
+<./Figs/Bp2Gket1-eps-converted-to.pdf, id=112, 73.27374pt x 61.22874pt>
 File: ./Figs/Bp2Gket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bp2Gket1-eps-converted-to.pdf>
@@ -1280,7 +1287,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/color2G-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/color2G-eps-converted-to.pdf, id=112, 301.125pt x 114.4275pt>
+<./Figs/color2G-eps-converted-to.pdf, id=113, 301.125pt x 114.4275pt>
 File: ./Figs/color2G-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/color2G-eps-converted-to.pdf>
@@ -1303,13 +1310,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/shortest-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/shortest-eps-converted-to.pdf, id=134, 102.3825pt x 103.38625pt>
+<./Figs/shortest-eps-converted-to.pdf, id=136, 102.3825pt x 103.38625pt>
 File: ./Figs/shortest-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/shortest-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/shortest-eps-converted-to.pdf used on input lin
 e 146.
 (pdftex.def)             Requested size: 71.66725pt x 72.36987pt.
+LaTeX Font Info:    Try loading font information for U+bbold on input line 150.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/bbold/Ubbold.fd)
 Package epstopdf Info: Source file: <./Figs/graphstate.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
 (epstopdf)                    size: 17311 bytes
@@ -1324,7 +1335,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/graphstate-eps-converted-to.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/graphstate-eps-converted-to.pdf, id=135, 264.99pt x 97.36375pt>
+<./Figs/graphstate-eps-converted-to.pdf, id=137, 264.99pt x 97.36375pt>
 File: ./Figs/graphstate-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/graphstate-eps-converted-to.pdf>
@@ -1346,7 +1357,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/col1-eps-converted-to.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/col1-eps-converted-to.pdf, id=147, 129.48375pt x 50.1875pt>
+<./Figs/col1-eps-converted-to.pdf, id=149, 129.48375pt x 50.1875pt>
 File: ./Figs/col1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/col1-eps-converted-to.pdf>
@@ -1367,7 +1378,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/col2-eps-converted-to.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/col2-eps-converted-to.pdf, id=148, 147.55125pt x 50.1875pt>
+<./Figs/col2-eps-converted-to.pdf, id=150, 147.55125pt x 50.1875pt>
 File: ./Figs/col2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/col2-eps-converted-to.pdf>
@@ -1390,7 +1401,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/Bket1-eps-converted-to.pdf): PDF inclusio
 n: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/Bket1-eps-converted-to.pdf, id=171, 73.27374pt x 61.22874pt>
+<./Figs/Bket1-eps-converted-to.pdf, id=174, 73.27374pt x 61.22874pt>
 File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bket1-eps-converted-to.pdf>
@@ -1491,7 +1502,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/graph2-eps-converted-to.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/graph2-eps-converted-to.pdf, id=172, 168.63pt x 74.2775pt>
+<./Figs/graph2-eps-converted-to.pdf, id=175, 168.63pt x 74.2775pt>
 File: ./Figs/graph2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/graph2-eps-converted-to.pdf>
@@ -1512,7 +1523,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/coltrans-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/coltrans-eps-converted-to.pdf, id=179, 301.125pt x 114.4275pt>
+<./Figs/coltrans-eps-converted-to.pdf, id=182, 301.125pt x 114.4275pt>
 File: ./Figs/coltrans-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/coltrans-eps-converted-to.pdf>
@@ -1541,7 +1552,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/class1-eps-converted-to.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/class1-eps-converted-to.pdf, id=181, 801.99625pt x 103.38625pt>
+<./Figs/class1-eps-converted-to.pdf, id=184, 801.99625pt x 103.38625pt>
 File: ./Figs/class1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/class1-eps-converted-to.pdf>
@@ -1553,9 +1564,7 @@ Overfull \hbox (10.8929pt too wide) in paragraph at lines 193--194
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+[6 <./Figs/Bket1-eps-converted-to.pdf> <./Figs/graph2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Figs/class2.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
 (epstopdf)                    size: 13711 bytes
@@ -1570,14 +1579,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/class2-eps-converted-to.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/class2-eps-converted-to.pdf, id=183, 494.84875pt x 103.38625pt>
+<./Figs/class2-eps-converted-to.pdf, id=198, 494.84875pt x 103.38625pt>
 File: ./Figs/class2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/class2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/class2-eps-converted-to.pdf used on input line 
 200.
 (pdftex.def)             Requested size: 272.16765pt x 56.8626pt.
- [6 <./Figs/Bket1-eps-converted-to.pdf> <./Figs/graph2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Figs/ket1.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
 (epstopdf)                    size: 3154 bytes
@@ -1592,7 +1600,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/ket1-eps-converted-to.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/ket1-eps-converted-to.pdf, id=198, 73.27374pt x 61.22874pt>
+<./Figs/ket1-eps-converted-to.pdf, id=200, 73.27374pt x 61.22874pt>
 File: ./Figs/ket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/ket1-eps-converted-to.pdf>
@@ -1646,7 +1654,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Figs/ket2-eps-converted-to.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/ket2-eps-converted-to.pdf, id=219, 73.27374pt x 61.22874pt>
+<./Figs/ket2-eps-converted-to.pdf, id=222, 73.27374pt x 61.22874pt>
 File: ./Figs/ket2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/ket2-eps-converted-to.pdf>
@@ -1673,13 +1681,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
  ) 
 Here is how much of TeX's memory you used:
- 27066 strings out of 493013
- 487181 string characters out of 6135682
- 663170 words of memory out of 5000000
- 29878 multiletter control sequences out of 15000+600000
+ 27068 strings out of 493013
+ 487207 string characters out of 6135682
+ 662170 words of memory out of 5000000
+ 29880 multiletter control sequences out of 15000+600000
  27900 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,14n,67p,3221b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,67p,3221b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
@@ -1703,9 +1711,9 @@ pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.p
 fb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on geom-paper.pdf (11 pages, 567873 bytes).
+Output written on geom-paper.pdf (11 pages, 568153 bytes).
 PDF statistics:
- 356 PDF objects out of 1000 (max. 8388607)
+ 360 PDF objects out of 1000 (max. 8388607)
  59 named destinations out of 1000 (max. 500000)
  138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,10 +1,22 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
-\bibitem{pramod}
-P.~{Padmanabhan}, J.~P. {Ibieta Jimenez}, M.~J. {Bernab{\'e} Ferreira}, and
-  P.~{Teotonio-Sobrinho}, {\it {More Solvable \$2D\$ Quantum Models from
-  Lattice Gauge Theories}},  {\em ArXiv e-prints} (Aug., 2014)
+\bibitem{Matter}
+M.~J.~B. Ferreira, J.~P.~I. Jimenez, P.~Padmanabhan, and P.~T. Sobrinho, {\it
+  {A recipe for constructing frustration-free Hamiltonians with gauge and
+  matter fields in one and two dimensions}},  {\em Journal of Physics A:
+  Mathematical and Theoretical} {\bf 48} (2015), no.~48 485206,
   [\href{http://xxx.lanl.gov/abs/1408.2501}{{\tt arXiv:1408.2501}}].
+
+\bibitem{higher}
+R.~C. de~Almeida, J.~Ibieta-Jimenez, J.~L. Espiro, and P.~Teotonio-Sobrinho,
+  {\it {Topological Order from a Cohomological and Higher Gauge Theory
+  perspective}},  {\em arXiv preprint arXiv:1711.04186} (2017)
+  [\href{http://xxx.lanl.gov/abs/1711.0418}{{\tt arXiv:1711.0418}}].
+
+\bibitem{higher-ent}
+J.~P. {Ibieta-Jimenez}, M.~Petrucci, and P.~Teotonio-Sobrinho, {\it
+  {Topological entanglement entropy in Abelian higher gauge theories}},  {\em
+  In preparation} (2019).
 
 \bibitem{kazuophd}
 K.~T. Mendon\c{c}a, {\em {Teorias de 2-gauge e o invariante de Yetter na
@@ -14,11 +26,6 @@ K.~T. Mendon\c{c}a, {\em {Teorias de 2-gauge e o invariante de Yetter na
 \bibitem{ricardomsc}
 R.~C. de~Almeida, {\it {Topological order in Three-dimensional Systems and
   2-Gauge Symmetry}}, .
-
-\bibitem{higher}
-R.~C. de~Almeida, J.~Ibieta-Jimenez, J.~L. Espiro, and P.~Teotonio-Sobrinho,
-  {\it {Topological Order from a Cohomological and Higher Gauge Theory
-  perspective}},  {\em arXiv preprint arXiv:1711.04186} (2017).
 
 \bibitem{Brown}
 R.~Brown, {\it {Cohomology with chains as coefficients}},  {\em Proc. London
@@ -77,11 +84,6 @@ R.~M. Nandkishore and M.~Hermele, {\it {Fractons}},  {\em arXiv preprint
 K.~Slagle and Y.~B. Kim, {\it {Quantum field theory of X-cube fracton
   topological order and robust degeneracy from geometry}},  {\em Physical
   Review B} {\bf 96} (2017), no.~19 195139.
-
-\bibitem{higher-ent}
-J.~P. {Ibieta-Jimenez}, M.~Petrucci, and P.~Teotonio-Sobrinho, {\it
-  {Topological entanglement entropy in Abelian higher gauge theories}},  {\em
-  In preparation} (2019).
 
 \bibitem{Kitaev1}
 A.~Y. Kitaev, {\it {Quantum computations: algorithms and error correction}},

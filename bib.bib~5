@@ -2025,3 +2025,39 @@
 	year = "2012"
 }
 
+@article{Bravyi13,
+	author = "Bravyi, Sergey and Haah, Jeongwan",
+	journal = "Physical review letters",
+	number = "20",
+	pages = "200501",
+	publisher = "APS",
+	title = "{Quantum self-correction in the 3d cubic code model}",
+	volume = "111",
+	year = "2013"
+}
+
+@article{Vijay17,
+	author = "Vijay, Sagar and Fu, Liang",
+	journal = "arXiv preprint arXiv:1706.07070",
+	title = "{A generalization of non-abelian anyons in three dimensions}",
+	year = "2017"
+}
+
+@article{Slagle17,
+	author = "Slagle, Kevin and Kim, Yong Baek",
+	journal = "Physical Review B",
+	number = "19",
+	pages = "195139",
+	publisher = "APS",
+	title = "{Quantum field theory of X-cube fracton topological order and robust degeneracy from geometry}",
+	volume = "96",
+	year = "2017"
+}
+
+@article{higher-ent,
+	author = "{Ibieta Jimenez}, J.~P. and Petrucci, M. and Teotonio-Sobrinho, P.",
+	journal = "In preparation",
+	title = "{Topological entanglement entropy in Abelian higher gauge theories}",
+	year = "2019"
+}
+
