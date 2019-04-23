@@ -27,6 +27,18 @@ K.~T. Mendon\c{c}a, {\em {Teorias de 2-gauge e o invariante de Yetter na
 R.~C. de~Almeida, {\it {Topological order in Three-dimensional Systems and
   2-Gauge Symmetry}}, .
 
+\bibitem{Bullivant16}
+A.~Bullivant, M.~{Cal\ifmmode \mbox\c{c}\else \c{c}\fi{}ada}, Z.~K{\'a}d{\'a}r,
+  P.~Martin, and J.~F. Martins, {\it {Topological phases from higher gauge
+  symmetry in $3+1$ dimensions}},  {\em Phys. Rev. B} {\bf 95} (Apr, 2017)
+  155118.
+
+\bibitem{Bullivant17}
+A.~Bullivant, M.~Calcada, Z.~K{\'a}d{\'a}r, J.~F. Martins, and P.~Martin, {\it
+  {Higher lattices, discrete two-dimensional holonomy and topological phases in
+  (3+ 1) D with higher gauge symmetry}},  {\em arXiv preprint arXiv:1702.00868}
+  (2017).
+
 \bibitem{Brown}
 R.~Brown, {\it {Cohomology with chains as coefficients}},  {\em Proc. London
   Math. Soc. (3)} {\bf 14} (1964) 545--565.
@@ -84,6 +96,12 @@ R.~M. Nandkishore and M.~Hermele, {\it {Fractons}},  {\em arXiv preprint
 K.~Slagle and Y.~B. Kim, {\it {Quantum field theory of X-cube fracton
   topological order and robust degeneracy from geometry}},  {\em Physical
   Review B} {\bf 96} (2017), no.~19 195139.
+
+\bibitem{Pramod}
+P.~{Padmanabhan}, J.~P. {Ibieta Jimenez}, M.~J. {Bernab{\'e} Ferreira}, and
+  P.~{Teotonio-Sobrinho}, {\it {More Solvable \$2D\$ Quantum Models from
+  Lattice Gauge Theories}},  {\em ArXiv e-prints} (Aug., 2014)
+  [\href{http://xxx.lanl.gov/abs/1408.2501}{{\tt arXiv:1408.2501}}].
 
 \bibitem{Kitaev1}
 A.~Y. Kitaev, {\it {Quantum computations: algorithms and error correction}},

@@ -4,45 +4,45 @@ The top-level auxiliary file: geom-paper.aux
 The style file: JHEP.bst
 Database file #1: bib.bib.bib
 Warning--I didn't find a database entry for "pablo"
-You've used 19 entries,
+You've used 22 entries,
             2195 wiz_defined-function locations,
-            642 strings with 6354 characters,
-and the built_in function-call counts, 5386 in all, are:
-= -- 557
-> -- 154
+            662 strings with 7116 characters,
+and the built_in function-call counts, 6190 in all, are:
+= -- 623
+> -- 202
 < -- 0
-+ -- 60
-- -- 41
-* -- 331
-:= -- 752
-add.period$ -- 20
-call.type$ -- 19
-change.case$ -- 18
++ -- 77
+- -- 55
+* -- 399
+:= -- 877
+add.period$ -- 23
+call.type$ -- 22
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 340
-empty$ -- 509
-format.name$ -- 41
-if$ -- 1404
+cite$ -- 22
+duplicate$ -- 383
+empty$ -- 580
+format.name$ -- 55
+if$ -- 1599
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 71
-newline$ -- 61
-num.names$ -- 19
-pop$ -- 80
+int.to.str$ -- 22
+missing$ -- 83
+newline$ -- 70
+num.names$ -- 22
+pop$ -- 95
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 237
+skip$ -- 260
 stack$ -- 0
-substring$ -- 222
-swap$ -- 158
+substring$ -- 239
+swap$ -- 173
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 38
-width$ -- 21
-write$ -- 194
+while$ -- 42
+width$ -- 24
+write$ -- 221
 (There was 1 warning)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.16)  18 APR 2019 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.16)  23 APR 2019 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1185,18 +1185,33 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
 
-
-Package natbib Warning: Citation `Bullivant16' on page 1 undefined on input lin
-e 81.
-
-
-Package natbib Warning: Citation `Bullivant17' on page 1 undefined on input lin
-e 81.
-
 [1] [2]
+Package epstopdf Info: Source file: <./Figs/2d-coltrans.eps>
+(epstopdf)                    date: 2019-04-23 11:39:16
+(epstopdf)                    size: 25306 bytes
+(epstopdf)             Output file: <./Figs/2d-coltrans-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-23 11:39:20
+(epstopdf)                    size: 10408 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figs/2d-coltrans-eps-con
+verted-to.pdf ./Figs/2d-coltrans.eps>
+(epstopdf)             \includegraphics on input line 106.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `eq:Av1G' on page 3 undefined on input line 105.
 
+pdfTeX warning: pdflatex (file ./Figs/2d-coltrans-eps-converted-to.pdf): PDF in
+clusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./Figs/2d-coltrans-eps-converted-to.pdf, id=117, 158.5925pt x 57.21375pt>
+File: ./Figs/2d-coltrans-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figs/2d-coltrans-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figs/2d-coltrans-eps-converted-to.pdf used on input 
+line 106.
+(pdftex.def)             Requested size: 158.59209pt x 57.2136pt.
+
+
+LaTeX Warning: Reference `eq:Av1G' on page 3 undefined on input line 119.
+
+[3 <./Figs/2d-coltrans-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Figs/Bp2Gket1.eps>
 (epstopdf)                    date: 2019-04-11 11:53:00
 (epstopdf)                    size: 9967 bytes
@@ -1205,18 +1220,18 @@ Package epstopdf Info: Source file: <./Figs/Bp2Gket1.eps>
 (epstopdf)                    size: 5190 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/Bp2Gket1-eps-conver
 ted-to.pdf ./Figs/Bp2Gket1.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/Bp2Gket1-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/Bp2Gket1-eps-converted-to.pdf, id=112, 73.27374pt x 61.22874pt>
+<./Figs/Bp2Gket1-eps-converted-to.pdf, id=133, 73.27374pt x 61.22874pt>
 File: ./Figs/Bp2Gket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bp2Gket1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/Bp2Gket1-eps-converted-to.pdf used on input lin
-e 108.
+e 122.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 Package epstopdf Info: Source file: <./Figs/Bp2Gket1.eps>
 (epstopdf)                    date: 2019-04-11 11:53:00
@@ -1226,13 +1241,13 @@ Package epstopdf Info: Source file: <./Figs/Bp2Gket1.eps>
 (epstopdf)                    size: 5190 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/Bp2Gket1-eps-conver
 ted-to.pdf ./Figs/Bp2Gket1.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Figs/Bp2Gket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bp2Gket1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/Bp2Gket1-eps-converted-to.pdf used on input lin
-e 108.
+e 122.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 Package epstopdf Info: Source file: <./Figs/Bp2Gket1.eps>
 (epstopdf)                    date: 2019-04-11 11:53:00
@@ -1242,13 +1257,13 @@ Package epstopdf Info: Source file: <./Figs/Bp2Gket1.eps>
 (epstopdf)                    size: 5190 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/Bp2Gket1-eps-conver
 ted-to.pdf ./Figs/Bp2Gket1.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Figs/Bp2Gket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bp2Gket1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/Bp2Gket1-eps-converted-to.pdf used on input lin
-e 108.
+e 122.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 Package epstopdf Info: Source file: <./Figs/Bp2Gket1.eps>
 (epstopdf)                    date: 2019-04-11 11:53:00
@@ -1258,20 +1273,20 @@ Package epstopdf Info: Source file: <./Figs/Bp2Gket1.eps>
 (epstopdf)                    size: 5190 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/Bp2Gket1-eps-conver
 ted-to.pdf ./Figs/Bp2Gket1.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Figs/Bp2Gket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bp2Gket1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/Bp2Gket1-eps-converted-to.pdf used on input lin
-e 108.
+e 122.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 
 
-LaTeX Warning: Reference `sec:2gauge' on page 3 undefined on input line 109.
+LaTeX Warning: Reference `sec:2gauge' on page 4 undefined on input line 123.
 
 
-LaTeX Warning: Reference `eq:Av2G' on page 3 undefined on input line 111.
+LaTeX Warning: Reference `eq:Av2G' on page 4 undefined on input line 125.
 
 Package epstopdf Info: Source file: <./Figs/color2G.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
@@ -1281,20 +1296,20 @@ Package epstopdf Info: Source file: <./Figs/color2G.eps>
 (epstopdf)                    size: 36180 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/color2G-eps-convert
 ed-to.pdf ./Figs/color2G.eps>
-(epstopdf)             \includegraphics on input line 118.
+(epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/color2G-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/color2G-eps-converted-to.pdf, id=113, 301.125pt x 114.4275pt>
+<./Figs/color2G-eps-converted-to.pdf, id=134, 301.125pt x 114.4275pt>
 File: ./Figs/color2G-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/color2G-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/color2G-eps-converted-to.pdf used on input line
- 118.
+ 132.
 (pdftex.def)             Requested size: 240.90031pt x 91.54211pt.
- [3 <./Figs/Bp2Gket1-eps-converted-to.pdf> <./Figs/color2G-eps-converted-to.pdf
+ [4 <./Figs/Bp2Gket1-eps-converted-to.pdf> <./Figs/color2G-eps-converted-to.pdf
 >]
 Package epstopdf Info: Source file: <./Figs/shortest.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
@@ -1304,20 +1319,20 @@ Package epstopdf Info: Source file: <./Figs/shortest.eps>
 (epstopdf)                    size: 3172 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/shortest-eps-conver
 ted-to.pdf ./Figs/shortest.eps>
-(epstopdf)             \includegraphics on input line 146.
+(epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/shortest-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/shortest-eps-converted-to.pdf, id=136, 102.3825pt x 103.38625pt>
+<./Figs/shortest-eps-converted-to.pdf, id=155, 102.3825pt x 103.38625pt>
 File: ./Figs/shortest-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/shortest-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/shortest-eps-converted-to.pdf used on input lin
-e 146.
+e 160.
 (pdftex.def)             Requested size: 71.66725pt x 72.36987pt.
-LaTeX Font Info:    Try loading font information for U+bbold on input line 150.
+LaTeX Font Info:    Try loading font information for U+bbold on input line 164.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/bbold/Ubbold.fd)
@@ -1329,20 +1344,21 @@ Package epstopdf Info: Source file: <./Figs/graphstate.eps>
 (epstopdf)                    size: 11200 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/graphstate-eps-conv
 erted-to.pdf ./Figs/graphstate.eps>
-(epstopdf)             \includegraphics on input line 153.
+(epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/graphstate-eps-converted-to.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/graphstate-eps-converted-to.pdf, id=137, 264.99pt x 97.36375pt>
+<./Figs/graphstate-eps-converted-to.pdf, id=156, 264.99pt x 97.36375pt>
 File: ./Figs/graphstate-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/graphstate-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/graphstate-eps-converted-to.pdf used on input l
-ine 153.
+ine 167.
 (pdftex.def)             Requested size: 211.99228pt x 77.89108pt.
- [4 <./Figs/shortest-eps-converted-to.pdf>]
+ [5 <./Figs/shortest-eps-converted-to.pdf> <./Figs/graphstate-eps-converted-to.
+pdf>]
 Package epstopdf Info: Source file: <./Figs/col1.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
 (epstopdf)                    size: 4566 bytes
@@ -1351,18 +1367,18 @@ Package epstopdf Info: Source file: <./Figs/col1.eps>
 (epstopdf)                    size: 3084 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/col1-eps-converted-
 to.pdf ./Figs/col1.eps>
-(epstopdf)             \includegraphics on input line 160.
+(epstopdf)             \includegraphics on input line 174.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/col1-eps-converted-to.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/col1-eps-converted-to.pdf, id=149, 129.48375pt x 50.1875pt>
+<./Figs/col1-eps-converted-to.pdf, id=174, 129.48375pt x 50.1875pt>
 File: ./Figs/col1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/col1-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figs/col1-eps-converted-to.pdf used on input line 16
-0.
+Package pdftex.def Info: ./Figs/col1-eps-converted-to.pdf used on input line 17
+4.
 (pdftex.def)             Requested size: 84.16342pt x 32.62148pt.
 Package epstopdf Info: Source file: <./Figs/col2.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
@@ -1372,21 +1388,19 @@ Package epstopdf Info: Source file: <./Figs/col2.eps>
 (epstopdf)                    size: 6812 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/col2-eps-converted-
 to.pdf ./Figs/col2.eps>
-(epstopdf)             \includegraphics on input line 161.
+(epstopdf)             \includegraphics on input line 175.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/col2-eps-converted-to.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/col2-eps-converted-to.pdf, id=150, 147.55125pt x 50.1875pt>
+<./Figs/col2-eps-converted-to.pdf, id=175, 147.55125pt x 50.1875pt>
 File: ./Figs/col2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/col2-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figs/col2-eps-converted-to.pdf used on input line 16
-1.
+Package pdftex.def Info: ./Figs/col2-eps-converted-to.pdf used on input line 17
+5.
 (pdftex.def)             Requested size: 95.90717pt x 32.62148pt.
- [5 <./Figs/graphstate-eps-converted-to.pdf> <./Figs/col1-eps-converted-to.pdf>
- <./Figs/col2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
 (epstopdf)                    size: 6593 bytes
@@ -1395,18 +1409,18 @@ Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    size: 3769 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
 -to.pdf ./Figs/Bket1.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/Bket1-eps-converted-to.pdf): PDF inclusio
 n: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/Bket1-eps-converted-to.pdf, id=174, 73.27374pt x 61.22874pt>
+<./Figs/Bket1-eps-converted-to.pdf, id=177, 73.27374pt x 61.22874pt>
 File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bket1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 1
-73.
+87.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
@@ -1416,13 +1430,13 @@ Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    size: 3769 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
 -to.pdf ./Figs/Bket1.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bket1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 1
-73.
+87.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
@@ -1432,13 +1446,13 @@ Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    size: 3769 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
 -to.pdf ./Figs/Bket1.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bket1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 1
-73.
+87.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
@@ -1448,13 +1462,13 @@ Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    size: 3769 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
 -to.pdf ./Figs/Bket1.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bket1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 1
-73.
+87.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
@@ -1464,13 +1478,13 @@ Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    size: 3769 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
 -to.pdf ./Figs/Bket1.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bket1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 1
-73.
+87.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
@@ -1480,13 +1494,13 @@ Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    size: 3769 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
 -to.pdf ./Figs/Bket1.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bket1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 1
-73.
+87.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 Package epstopdf Info: Source file: <./Figs/graph2.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
@@ -1496,19 +1510,34 @@ Package epstopdf Info: Source file: <./Figs/graph2.eps>
 (epstopdf)                    size: 9409 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/graph2-eps-converte
 d-to.pdf ./Figs/graph2.eps>
-(epstopdf)             \includegraphics on input line 177.
+(epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/graph2-eps-converted-to.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/graph2-eps-converted-to.pdf, id=175, 168.63pt x 74.2775pt>
+<./Figs/graph2-eps-converted-to.pdf, id=178, 168.63pt x 74.2775pt>
 File: ./Figs/graph2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/graph2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/graph2-eps-converted-to.pdf used on input line 
-177.
+191.
 (pdftex.def)             Requested size: 134.90417pt x 59.42207pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `def:coltrans' on page 6 undefined on input line 195.
+
+
+LaTeX Warning: Reference `def:coltrans' on page 6 undefined on input line 195.
+
+
+LaTeX Warning: Reference `def:coltrans' on page 6 undefined on input line 195.
+
+[6 <./Figs/col1-eps-converted-to.pdf> <./Figs/col2-eps-converted-to.pdf> <./Fig
+s/Bket1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Figs/coltrans.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
 (epstopdf)                    size: 21074 bytes
@@ -1517,25 +1546,22 @@ Package epstopdf Info: Source file: <./Figs/coltrans.eps>
 (epstopdf)                    size: 18178 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/coltrans-eps-conver
 ted-to.pdf ./Figs/coltrans.eps>
-(epstopdf)             \includegraphics on input line 186.
+(epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/coltrans-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/coltrans-eps-converted-to.pdf, id=182, 301.125pt x 114.4275pt>
+<./Figs/coltrans-eps-converted-to.pdf, id=200, 301.125pt x 114.4275pt>
 File: ./Figs/coltrans-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/coltrans-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/coltrans-eps-converted-to.pdf used on input lin
-e 186.
+e 200.
 (pdftex.def)             Requested size: 180.67638pt x 68.65701pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package natbib Warning: Citation `pablo' on page 6 undefined on input line 190.
+Package natbib Warning: Citation `pablo' on page 7 undefined on input line 204.
 
 
 Package epstopdf Info: Source file: <./Figs/class1.eps>
@@ -1546,25 +1572,24 @@ Package epstopdf Info: Source file: <./Figs/class1.eps>
 (epstopdf)                    size: 9162 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/class1-eps-converte
 d-to.pdf ./Figs/class1.eps>
-(epstopdf)             \includegraphics on input line 193.
+(epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/class1-eps-converted-to.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/class1-eps-converted-to.pdf, id=184, 801.99625pt x 103.38625pt>
+<./Figs/class1-eps-converted-to.pdf, id=202, 801.99625pt x 103.38625pt>
 File: ./Figs/class1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/class1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/class1-eps-converted-to.pdf used on input line 
-193.
+207.
 (pdftex.def)             Requested size: 441.09929pt x 56.8626pt.
 
-Overfull \hbox (10.8929pt too wide) in paragraph at lines 193--194
+Overfull \hbox (10.8929pt too wide) in paragraph at lines 207--208
  [][] 
  []
 
-[6 <./Figs/Bket1-eps-converted-to.pdf> <./Figs/graph2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Figs/class2.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
 (epstopdf)                    size: 13711 bytes
@@ -1573,19 +1598,21 @@ Package epstopdf Info: Source file: <./Figs/class2.eps>
 (epstopdf)                    size: 8074 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/class2-eps-converte
 d-to.pdf ./Figs/class2.eps>
-(epstopdf)             \includegraphics on input line 200.
+(epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/class2-eps-converted-to.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/class2-eps-converted-to.pdf, id=198, 494.84875pt x 103.38625pt>
+<./Figs/class2-eps-converted-to.pdf, id=204, 494.84875pt x 103.38625pt>
 File: ./Figs/class2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/class2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/class2-eps-converted-to.pdf used on input line 
-200.
+214.
 (pdftex.def)             Requested size: 272.16765pt x 56.8626pt.
+ [7 <./Figs/graph2-eps-converted-to.pdf> <./Figs/coltrans-eps-converted-to.pdf>
+ <./Figs/class1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Figs/ket1.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
 (epstopdf)                    size: 3154 bytes
@@ -1594,18 +1621,18 @@ Package epstopdf Info: Source file: <./Figs/ket1.eps>
 (epstopdf)                    size: 2738 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/ket1-eps-converted-
 to.pdf ./Figs/ket1.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/ket1-eps-converted-to.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/ket1-eps-converted-to.pdf, id=200, 73.27374pt x 61.22874pt>
+<./Figs/ket1-eps-converted-to.pdf, id=225, 73.27374pt x 61.22874pt>
 File: ./Figs/ket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/ket1-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figs/ket1-eps-converted-to.pdf used on input line 21
-0.
+Package pdftex.def Info: ./Figs/ket1-eps-converted-to.pdf used on input line 22
+4.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
@@ -1615,12 +1642,12 @@ Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    size: 3769 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
 -to.pdf ./Figs/Bket1.eps>
-(epstopdf)             \includegraphics on input line 212.
+(epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figs/Bket1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 2
-12.
+26.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
 Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
@@ -1630,16 +1657,14 @@ Package epstopdf Info: Source file: <./Figs/Bket1.eps>
 (epstopdf)                    size: 3769 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/Bket1-eps-converted
 -to.pdf ./Figs/Bket1.eps>
-(epstopdf)             \includegraphics on input line 212.
+(epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
 File: ./Figs/Bket1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/Bket1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figs/Bket1-eps-converted-to.pdf used on input line 2
-12.
+26.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
- [7 <./Figs/coltrans-eps-converted-to.pdf> <./Figs/class1-eps-converted-to.pdf>
- <./Figs/class2-eps-converted-to.pdf> <./Figs/ket1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Figs/ket2.eps>
 (epstopdf)                    date: 2019-04-11 11:52:58
 (epstopdf)                    size: 7267 bytes
@@ -1648,46 +1673,47 @@ Package epstopdf Info: Source file: <./Figs/ket2.eps>
 (epstopdf)                    size: 6661 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figs/ket2-eps-converted-
 to.pdf ./Figs/ket2.eps>
-(epstopdf)             \includegraphics on input line 220.
+(epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figs/ket2-eps-converted-to.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./Figs/ket2-eps-converted-to.pdf, id=222, 73.27374pt x 61.22874pt>
+<./Figs/ket2-eps-converted-to.pdf, id=227, 73.27374pt x 61.22874pt>
 File: ./Figs/ket2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figs/ket2-eps-converted-to.pdf>
-Package pdftex.def Info: ./Figs/ket2-eps-converted-to.pdf used on input line 22
-0.
+Package pdftex.def Info: ./Figs/ket2-eps-converted-to.pdf used on input line 23
+4.
 (pdftex.def)             Requested size: 47.62735pt x 39.79819pt.
- [8 <./Figs/ket2-eps-converted-to.pdf>]
-(./geom-paper.bbl [9])
+ [8 <./Figs/class2-eps-converted-to.pdf> <./Figs/ket1-eps-converted-to.pdf> <./
+Figs/ket2-eps-converted-to.pdf>]
+(./geom-paper.bbl [9] [10])
 
 Package natbib Warning: There were undefined citations.
 
-[10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
+[11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (./geom-paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
 Package rerunfilecheck Info: File `geom-paper.out' has not changed.
 (rerunfilecheck)             Checksum: 828BEEDD491B4C106054F9F95FD90C97;532.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
  ) 
 Here is how much of TeX's memory you used:
- 27068 strings out of 493013
- 487207 string characters out of 6135682
- 662170 words of memory out of 5000000
- 29880 multiletter control sequences out of 15000+600000
- 27900 words of font info for 80 fonts, out of 8000000 for 9000
+ 27094 strings out of 493013
+ 487696 string characters out of 6135682
+ 662380 words of memory out of 5000000
+ 29897 multiletter control sequences out of 15000+600000
+ 28278 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,14n,67p,3221b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,67p,3221b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
@@ -1711,9 +1737,9 @@ pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.p
 fb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on geom-paper.pdf (11 pages, 568153 bytes).
+Output written on geom-paper.pdf (12 pages, 584618 bytes).
 PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 377 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
